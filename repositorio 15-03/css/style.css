@@ -19,3 +19,56 @@
 a{
     text-decoration: none;
 }
+
+.contenedorFooter{
+    width: 100%;
+    border:solid brown;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.boxFooter{
+    border: solid burlywood;
+    width:33.3%;
+    text-align: justify;
+    padding: 20px;
+    color: brown;
+}
+
+.boxFooter img{
+    width:30px;
+    height: 30px;
+
+}
+.boxItems{
+    display: flex;
+    align-items: center;
+}
+
+.boxItems img{
+    padding-right: 15px;
+}
+
+.boxItems a:hover{
+    color: rgb(227, 21, 21);
+}
+
+.boxItems a{
+    color: brown;
+}
+
+.miniBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.miniBox a{
+    color: brown
+}
+
+.miniBox a:hover{
+    color: rgb(227, 21, 21);
+}
